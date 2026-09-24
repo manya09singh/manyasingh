@@ -27,3 +27,17 @@ Replace:
 - Google Scholar / ORCID / GitHub / LinkedIn links
 - CV
 - profile initials/photo
+
+
+## Optional images
+
+The website already has space for two images:
+
+- `images/ireland-banner.jpg` — a wide panoramic Ireland landscape at the top.
+- `images/profile.jpg` — your profile photograph.
+
+Create an `images` folder and add the files with exactly those names.
+
+For the Ireland banner, a wide image around **1800 × 500 px** works well. The site uses `background-size: cover`, so it will crop gracefully on different screen sizes.
+
+The banner is intentionally just an empty image slot — no image is included or generated.
